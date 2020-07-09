@@ -1,0 +1,31 @@
+.error-msg {
+  color: red;
+  text-align: center;
+  font-size: 18px;
+}
+
+// 固定底部
+.am-tab-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  // 包裹内容，靠内容撑开
+  height: inherit;
+}
+
+.sticky-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+// 消息文本居右
+.chat-page .chat-me .am-list-extra {
+  // 宽度包裹内容
+  flex-basis: auto;
+}
+.chat-page .chat-me .am-list-content {
+  padding-right: 15px;
+  text-align: right;
+}
