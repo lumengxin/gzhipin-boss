@@ -2,12 +2,14 @@
   "name": "gzhipin-boss",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/v19/gzhipin-boss",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "antd-mobile": "^2.3.3",
     "axios": "^0.19.2",
+    "http-proxy-middleware": "^1.0.5",
     "js-cookie": "^2.2.1",
     "rc-queue-anim": "^1.8.5",
     "react": "^16.13.1",
@@ -54,6 +56,5 @@
     "react-app-rewired": "^2.1.6",
     "redux-devtools-extension": "^2.13.8",
     "style-loader": "^1.2.1"
-  },
-  "proxy": "http://localhost:4000"
+  }
 }

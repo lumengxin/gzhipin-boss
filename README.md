@@ -1,5 +1,20 @@
-# 项目启动
+# 说明
+react实现简易版的boss直聘app, 借助socket.io库实现实时通信。
 
+## 技术栈
+前端：react + react-router-dom + redux + antd-mobile + js-cookie + socket.io
+[后端](https://github.com/lumengxin/Front-system-learning/tree/master/08.%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/react%E9%A1%B9%E7%9B%AE/gzhipin-server)：express + blueimp-md5 + ejs + cookie-parser + mongoose + socket.io
+
+## 项目预览：
+
+[在线演示](http://www.byooka.com/v19/gzhipin-boss)
+
+**效果展示：**
+
+<div style="display:flex;flex-wrap:wrap;">
+    <img src="./docs/images/mess.png" />
+    <img src="./docs/images/home.gif" />
+</div>
 
 
 # 开发过程
