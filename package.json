@@ -59,15 +59,16 @@
     "less": "^3.11.2",
     "less-loader": "5.x",
     "lint-staged": "^11.2.3",
+    "prettier": "^2.4.1",
     "react-app-rewired": "^2.1.6",
     "redux-devtools-extension": "^2.13.8",
     "style-loader": "^1.2.1"
   },
   "config": {
-		"commitizen": {
-			"path": "node_modules/cz-customizable"
-		}
-	},
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
