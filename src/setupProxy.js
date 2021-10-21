@@ -29,7 +29,7 @@ module.exports = function(app) {
   // )
 
   app.use(createProxyMiddleware('/api-boss', {
-      target: 'http://127.0.0.1:3002',
+      target: 'http://127.0.0.1:4000',
       secure: false,
       changeOrigin: true,
       pathRewrite: {
